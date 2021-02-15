@@ -1,0 +1,5 @@
+Numbers that would overload midpoint_original are any number in which the sum of the two exceeds 2^31-1 (0x1111111111111111 and 0x1111111111111111, for example).
+I believe that any numbers where  x + ((y - x)) equals a negative number would overflow midpoint_A.
+I was unable to produce any screenshots as I was getting a 'permission denied' error through repl.it. I will install gcc before the next class so that should hopefully resolve 
+the issue. 
+
